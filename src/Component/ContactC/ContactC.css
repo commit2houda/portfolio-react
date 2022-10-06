@@ -1,0 +1,110 @@
+.contactMain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding: 10px 300px;
+  gap: 100px;
+  width: 100%;
+  height: 100vh;
+}
+
+.contactTitles {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contactMain form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  width: 50%;
+}
+
+input {
+  padding: 10px 40px;
+  background-color: #120e26;
+  border-color: #0693e3;
+  color: white;
+  width: 100%; 
+}
+
+#subject,
+#msg {
+  width: 100%;
+}
+
+.namendEmail {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.namendEmail input {
+  padding: 10px 20px;
+}
+.contactMain form button {
+  padding: 10px 30px;
+  color: #0693e3;
+  border: 1px solid #0693e3;
+  border-radius: 20px;
+  background-color: #120e26;
+  cursor: pointer;
+}
+.contactMain form button:hover {
+  background-color: rgba(6, 146, 227, 0.349);
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+
+.contactTitles > h5 {
+  color: #0693e3;
+}
+.contactTitles > h1 {
+  color: white;
+}
+.contactTitles > p {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+@media screen and (max-width: 600px) {
+  .contactMain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    gap: 40px;
+    width: 100%;
+    /* height: 100vh; */
+  }
+  .contactTitles {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .namendEmail {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .contactMain form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+  }
+}

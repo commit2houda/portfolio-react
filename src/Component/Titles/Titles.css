@@ -1,0 +1,64 @@
+.flexndContent {
+  /* height: 100vh; */
+  margin-top: 100px;
+  /* padding-left: 300px; */
+}
+
+.justContent {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.line {
+  width: 30%;
+  height: 0.5px;
+  background-color: #0693e3;
+}
+
+.justContent > span {
+  color: #0693e3;
+  font-size: 1.3em;
+}
+
+.justContent > h2 {
+  color: white;
+}
+
+@media screen and (max-width: 600px) {
+  .flexndContent {
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .justContent {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    /* gap: 5px; */
+  }
+
+  .line {
+    width: 80%;
+    height: 0.5px;
+    background-color: #0693e3;
+  }
+
+  .justContent > h2 {
+    color: white;
+    width: 50%;
+    text-align: center;
+    font-size: 1.3em;
+  }
+
+  .justContent {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    gap: 0px !important;
+  }
+}

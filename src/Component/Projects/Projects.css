@@ -1,0 +1,45 @@
+.projectsMain {
+  padding: 40px 200px 0px 300px;
+  width: 100%;
+  /* height: 100vh; */
+}
+
+.totalProjects {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin-top: 40px;
+}
+
+/* .footerCard {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  right: 40px;
+} */
+
+/* .flex{
+    display: flex;
+    flex-direction: row;
+} */
+
+@media screen and (max-width: 600px) {
+  .projectsMain {
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .totalProjects {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+  }
+}

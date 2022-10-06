@@ -1,0 +1,112 @@
+.cardMain {
+  display: flex;
+  padding: 20px 0px;
+  /* position: relative; */
+}
+
+.img {
+  width: 450px;
+  height: 300px;
+  border-radius: 30px;
+}
+
+.cardTitles {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  position: relative;
+  width: 100%;
+  right: 40px;
+}
+
+.cardTitles > h6 {
+  color: #0693e3;
+  letter-spacing: 0.2em;
+  font-size: 0.7em;
+}
+
+.cardTitles > h2 {
+  color: white;
+  font-size: 2em;
+}
+
+.cardCard {
+  background-color: #1a1336;
+  padding: 20px 40px;
+  border-radius: 10px;
+  position: relative;
+  width: 100%;
+  right: 40px;
+  box-sizing: border-box;
+}
+
+.cardCard > p {
+  color: rgba(255, 255, 255, 0.7);
+}
+.cardCard > p > span {
+  color: #0693e3;
+  text-decoration: underline;
+}
+.footerCard {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  right: 40px;
+}
+
+/* .footerCard {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  right: 40px;
+}
+ */
+.techUsed {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: row;
+  margin: 10px 0px;
+  gap: 20px;
+  color: rgba(255, 255, 255, 0.7);
+}
+.iconCards {
+  display: flex;
+  gap: 20px;
+}
+.iconCard {
+  font-size: 1.2em;
+  color: rgba(255, 255, 255, 0.7);
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 10px 0px;
+}
+
+@media screen and (max-width: 600px) {
+  .img {
+    display: none;
+  }
+  .cardTitles {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 100%;
+  }
+
+  .cardCard {
+    background-color: #1a1336;
+    padding: 20px 40px;
+    border-radius: 10px;
+    width: 100%;
+    right: 0px !important;
+    box-sizing: border-box;
+  }
+}

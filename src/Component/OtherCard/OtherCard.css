@@ -1,0 +1,67 @@
+.otherCardmain {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 50%;
+  background-color: #1a1336;
+  box-shadow: 1px 1px 10px black;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.otherCardicons {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+
+  /* gap: 20px; */
+}
+
+.iconsOther {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.otherCardicons > .iconother {
+  font-size: 2em;
+  color: #0693e3;
+}
+
+.iconsOther .iconother {
+  font-size: 1.3em;
+  color: rgb(255, 255, 255, 0.7);
+}
+
+.otherContent {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: rgb(255, 255, 255, 0.7);
+}
+
+.otherContent > h1 {
+  font-weight: lighter;
+}
+
+.spansOther {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  color: rgb(255, 255, 255, 0.7);
+}
+
+@media screen and (max-width: 600px) {
+  .otherCardmain {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    background-color: #1a1336;
+    box-shadow: 1px 1px 10px black;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+}

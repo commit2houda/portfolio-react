@@ -1,0 +1,34 @@
+/* .mainicons {
+  padding-left: 20px;
+} */
+
+.icons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+  gap: 25px;
+  width: 5%;
+  position: fixed;
+  top: 70%;
+  list-style: none;
+}
+
+.icon-size {
+  font-size: 1.2em;
+  color: white;
+  transform: translateY(0px);
+  transition: transform 1s;
+}
+
+.icon-size:hover {
+  color: #0693e3;
+  transform: translateY(-10px);
+  transition: transform 0.5s;
+}
+
+@media screen and (max-width: 600px) {
+  .icons {
+    display: none;
+  }
+}
