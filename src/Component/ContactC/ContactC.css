@@ -29,10 +29,10 @@
 
 input {
   padding: 10px 40px;
-  background-color: #120e26;
-  border-color: #0693e3;
-  color: white;
-  width: 100%; 
+  background-color: #092a62;
+  border-color: #f7a67a;
+  color: #f1c9ca;
+  width: 100%;
 }
 
 #subject,
@@ -50,26 +50,26 @@ input {
 }
 .contactMain form button {
   padding: 10px 30px;
-  color: #0693e3;
-  border: 1px solid #0693e3;
+  color: #f7a67a;
+  border: 1px solid #f7a67a;
   border-radius: 20px;
-  background-color: #120e26;
+  background-color: #092a62;
   cursor: pointer;
 }
 .contactMain form button:hover {
-  background-color: rgba(6, 146, 227, 0.349);
+  background-color: rgba(247, 166, 122, 0.1);
   transition: all 0.3 ease;
   cursor: pointer;
 }
 
 .contactTitles > h5 {
-  color: #0693e3;
+  color: #f7a67a;
 }
 .contactTitles > h1 {
-  color: white;
+  color: #f1c9ca;
 }
 .contactTitles > p {
-  color: rgba(255, 255, 255, 0.8);
+  color: #d6c7d2;
 }
 
 @media screen and (max-width: 600px) {

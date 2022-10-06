@@ -1,10 +1,15 @@
 import { Component } from "react";
 import "./ContactC.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 class ContactC extends Component {
+  componentDidMount() {
+    Aos.init({ duration: 2000 });
+  }
   render() {
     return (
-      <div className="contactMain">
+      <div className="contactMain" id="contactS" data-aos="flip-left">
         <div className="contactTitles">
           <h5>03. What's Next ?</h5>
           <h1>Get In Touch</h1>

@@ -30,11 +30,12 @@ class ProjectCard extends Component {
               <span>{this.props.tL}</span>
             </div>
             <div className="iconCards">
-              <FontAwesomeIcon className="iconCard" icon={faGithub} />
-              <FontAwesomeIcon
-                className="iconCard"
-                icon={faArrowUpRightFromSquare}
-              />
+              <a href={this.props.link} target="_blank" className="iconCard">
+                <FontAwesomeIcon icon={this.props.icona} />
+              </a>
+              <a href={this.props.linkb} target="_blank" className="iconCard">
+                <FontAwesomeIcon icon={this.props.iconb} />
+              </a>
             </div>
           </div>
         </div>

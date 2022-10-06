@@ -12,13 +12,18 @@ class OtherCard extends Component {
     return (
       <div className="otherCardmain">
         <div className="otherCardicons">
-          <FontAwesomeIcon className="iconother" icon={faFolderOpen} />
+          <FontAwesomeIcon
+            // className="iconother"
+            icon={faFolderOpen}
+            className="iconColor  iconother"
+          />
           <div className="iconsOther">
-            <FontAwesomeIcon className="iconother" icon={faGithub} />{" "}
-            <FontAwesomeIcon
-              className="iconother"
-              icon={faArrowUpRightFromSquare}
-            />
+            <a href={this.props.link} target="_blank" className="iconother">
+              <FontAwesomeIcon icon={this.props.icona} className="iconColor" />
+            </a>
+            <a href={this.props.linkb} target="_blank" className="iconother">
+              <FontAwesomeIcon icon={this.props.iconb} className="iconColor" />
+            </a>
           </div>
         </div>
         <div className="otherContent">

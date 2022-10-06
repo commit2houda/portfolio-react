@@ -4,12 +4,19 @@ import Titles from "../Titles/Titles";
 import ProjectCard from "../ProjectCard/ProjectCard";
 import ReverseCard from "../ReverseCard/ReverseCard";
 import calculatrice from "../../images/calculatrice.PNG";
-import Appvilla from "../../images/Appvilla.PNG";
+
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 class Projects extends Component {
+  componentDidMount() {
+    Aos.init({ duration: 3000 });
+  }
   render() {
     return (
-      <div className="projectsMain">
+      <div className="projectsMain" id="thirdS" data-aos="fade-left">
         <div className="flex">
           <Titles number="02." title="Projects" />
           <div className="totalProjects">
@@ -20,6 +27,10 @@ class Projects extends Component {
               fL="Html"
               sL="Css"
               tL="Javascript"
+              link="https://houdaelbaidak6.github.io/Calculatrice/"
+              linkb="https://github.com/HoudaElbaidak6/Calculatrice"
+              icona={faGithub}
+              iconb={faArrowUpRightFromSquare}
             />
             <ReverseCard
               img={calculatrice}
@@ -28,6 +39,10 @@ class Projects extends Component {
               fL="Html"
               sL="Css"
               tL="Javascript"
+              link="https://houdaelbaidak6.github.io/Calculatrice/"
+              linkb="https://github.com/HoudaElbaidak6/Calculatrice"
+              icona={faGithub}
+              iconb={faArrowUpRightFromSquare}
             />
             <ProjectCard
               img={calculatrice}
@@ -36,6 +51,10 @@ class Projects extends Component {
               fL="Html"
               sL="Css"
               tL="Javascript"
+              link="https://houdaelbaidak6.github.io/Calculatrice/"
+              linkb="https://github.com/HoudaElbaidak6/Calculatrice"
+              icona={faGithub}
+              iconb={faArrowUpRightFromSquare}
             />
           </div>
         </div>

@@ -9,38 +9,38 @@
 }
 
 .firstContent > h5 {
-  color: #0693e3;
+  color: #f7a67a;
 }
 .firstContent h1:nth-child(3) {
-  color: #0693e3;
+  color: #d6c7d2;
   /* height: 10px; */
   line-height: 1.1;
 }
 
 .firstContent > h1 {
   font-size: 4em;
-  color: white;
+  color: #f1c9ca;
   font-size: 4.3em;
 }
 
 .firstContent > p {
   width: 60%;
-  color: rgb(255, 255, 255, 0.6);
+  color: #d6c7d2;
   font-size: 1em;
   margin-top: 10px;
 }
 .firstContent > button {
-  border: 1px solid #0693e3;
+  border: 1px solid #f7a67a;
   border-radius: 20px;
   margin-top: 40px;
-  background-color: #120e26;
-  color: #0693e3;
+  background-color: #092a62;
+  color: #f7a67a;
   padding: 10px 30px;
   cursor: pointer;
 }
 
 .firstContent > button:hover {
-  background-color: rgba(6, 147, 227, 0.3);
+  background-color: rgba(247, 166, 122,0.1);
   transition: 0.3s ease all;
   cursor: pointer;
 }

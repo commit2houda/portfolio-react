@@ -5,7 +5,7 @@ import FirstSection from "../FirstSection/FirstSection";
 class Container extends Component {
   render() {
     return (
-      <div className="mainContainer">
+      <div className="mainContainer" id="firstS">
         <FirstSection />
       </div>
     );

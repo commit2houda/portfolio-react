@@ -13,18 +13,13 @@ import OtherCard from "./Component/OtherCard/OtherCard";
 import OtherProjects from "./Component/OtherProjects/OtherProjects";
 import ContactC from "./Component/ContactC/ContactC";
 import Footer from "./Component/Footer/Footer";
+import Loading from "./Component/Loading/Loading";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Navbar />
-    <SocialMedia />
-    <Container />
-    <SecondS />
-    <Projects />
-    <OtherProjects />
-    <ContactC />
-    <Footer/>
+    <Loading />
+   
   </React.StrictMode>
 );
 

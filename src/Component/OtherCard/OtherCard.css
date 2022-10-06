@@ -3,8 +3,10 @@
   flex-direction: column;
   gap: 20px;
   width: 50%;
-  background-color: #1a1336;
-  box-shadow: 1px 1px 10px black;
+  background-color: 
+  #07204b;
+  box-shadow: 1px 1px 10px 
+  #07204b;
   padding: 20px;
   border-radius: 10px;
 }
@@ -26,30 +28,38 @@
 
 .otherCardicons > .iconother {
   font-size: 2em;
-  color: #0693e3;
+  color: #f7a67a;
+}
+.otherCardicons > .iconColor {
+  color: #f7a67a !important;
 }
 
-.iconsOther .iconother {
+.iconsOther .iconother .iconColor {
   font-size: 1.3em;
-  color: rgb(255, 255, 255, 0.7);
+  color: #d6c7d2;
 }
 
+.iconsOther .iconother .iconColor:hover {
+  color: #f7a67a;
+  transition: all 0.3s ease;
+}
 .otherContent {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  color: rgb(255, 255, 255, 0.7);
+  color: #d6c7d2;
 }
 
 .otherContent > h1 {
   font-weight: lighter;
+  color: #f1c9ca;
 }
 
 .spansOther {
   display: flex;
   flex-direction: row;
   gap: 20px;
-  color: rgb(255, 255, 255, 0.7);
+  color: #d6c7d2;
 }
 
 @media screen and (max-width: 600px) {
@@ -63,5 +73,4 @@
     padding: 20px;
     border-radius: 10px;
   }
-  
 }

@@ -14,16 +14,16 @@
   align-items: center;
   flex-direction: column;
   gap: 15px;
-  color: rgba(255, 255, 255, 0.6);
+  color: #d6c7d2;
 }
 
 .footerInside > h2 {
   font-weight: lighter;
-  color: #0693e3;
+  color: #f7a67a;
 }
 .footerInside > a {
   text-decoration: none;
-  color: rgba(255, 255, 255, 0.6);
+  color: #d6c7d2;
   font-size: 0.7em;
 }
 

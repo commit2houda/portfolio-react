@@ -10,11 +10,21 @@ import {
   faPhp,
   faLaravel,
 } from "@fortawesome/free-brands-svg-icons";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 class SecondS extends Component {
+  componentDidMount() {
+    Aos.init({ duration: 2000 });
+  }
   render() {
     return (
-      <div className="pndAnimation">
+      <div
+        className="pndAnimation"
+        id="secondS"
+        data-aos="fade-right"
+        // data-aos-delay="3200"
+      >
         <Titles number="01." title="About Me" />
         <div className="sContent">
           <p className="firstP">

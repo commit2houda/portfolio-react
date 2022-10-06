@@ -16,7 +16,7 @@
 .sContent .firstP,
 .secondP {
   width: 45%;
-  color: rgb(255, 255, 255, 0.6);
+  color: #d6c7d2;
   font-size: 1em;
 }
 
@@ -39,14 +39,15 @@
 }
 .tech .firstTech > .icon,
 .tech .secondTech > .icon {
-  color: #0693e3;
+  color: #f7a67a;
   font-size: 3em;
   cursor: pointer;
+  transition: all 0.5 ease-in;
 }
 
 .tech .firstTech > .icon:hover,
 .tech .secondTech > .icon:hover {
-  color: white;
+  color: #f1c9ca;
   transition: all 0.5 ease-in;
 }
 
