@@ -20,7 +20,7 @@ class ProjectCard extends Component {
           <div className="cardCard">
             <p>
               {this.props.paragraph}
-              &nbsp; <span>Go there</span>
+              {/* &nbsp; <span>Go there</span> */}
             </p>
           </div>
           <div className="footerCard">

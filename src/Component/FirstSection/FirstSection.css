@@ -39,8 +39,14 @@
   cursor: pointer;
 }
 
+.firstContent > button > a {
+  text-decoration: none;
+  color: #f7a67a;
+  font-size: 1.1em;
+}
+
 .firstContent > button:hover {
-  background-color: rgba(247, 166, 122,0.1);
+  background-color: rgba(247, 166, 122, 0.1);
   transition: 0.3s ease all;
   cursor: pointer;
 }

@@ -21,53 +21,65 @@ class OtherProjects extends Component {
         <div className="flexOther">
           <div className="otherF">
             <OtherCard
-              otherTitle="Realtime TODO"
-              otherP="Web application to add, edit, delete and assign to another person in real-time. My participation came out in one of his videos Minute: 29:35 "
-              FO="Next.js"
-              SO="MaterialUI"
-              TO="Firebase"
-              link="https://houdaelbaidak6.github.io/Calculatrice/"
-              linkb="https://github.com/HoudaElbaidak6/Calculatrice"
+              otherTitle="SoundBoard"
+              otherP="Sound board project is an audio-based web project. It is coded in HTML5, CSS, and JavaScript. This project deals with playing sound on button click."
+              FO="Html"
+              SO="Css"
+              TO="Javascript"
+              link="https://github.com/HoudaElbaidak6/soundboard"
+              linkb="https://houdaelbaidak6.github.io/soundboard/"
               icona={faGithub}
               iconb={faArrowUpRightFromSquare}
+              className="card1"
             />
             <OtherCard
-              otherTitle="Realtime TODO"
-              otherP="Web application to add, edit, delete and assign to another person in real-time. My participation came out in one of his videos Minute: 29:35 "
-              FO="Next.js"
-              SO="MaterialUI"
-              TO="Firebase"
-              link="https://houdaelbaidak6.github.io/Calculatrice/"
-              linkb="https://github.com/HoudaElbaidak6/Calculatrice"
+              otherTitle="Hover Board"
+              otherP="Hoverboard is a web-based project. The hoverboard project has a cool effect painting on a box by hovering over it.It has a very cool user interface that is easy to interact with."
+              FO="Html"
+              SO="Css"
+              TO="Javascript"
+              link="https://github.com/HoudaElbaidak6/hoverboard"
+              linkb="https://houdaelbaidak6.github.io/hoverboard/"
               icona={faGithub}
               iconb={faArrowUpRightFromSquare}
+              className="card1"
             />
           </div>
           <div className="otherS">
             <OtherCard
-              otherTitle="Realtime TODO"
-              otherP="Web application to add, edit, delete and assign to another person in real-time. My participation came out in one of his videos Minute: 29:35 "
-              FO="Next.js"
-              SO="MaterialUI"
-              TO="Firebase"
-              link="https://houdaelbaidak6.github.io/Calculatrice/"
-              linkb="https://github.com/HoudaElbaidak6/Calculatrice"
+              otherTitle="Quote Generator "
+              otherP="This application fetches a new random quote from an API, upon the click of a button, and displays it in the browser. "
+              FO="Html"
+              SO="Css"
+              TO="Javascript"
+              link="https://github.com/HoudaElbaidak6/Quote-generator"
+              linkb="https://houdaelbaidak6.github.io/Quote-generator/"
               icona={faGithub}
               iconb={faArrowUpRightFromSquare}
+              className="card1"
             />
             <OtherCard
-              otherTitle="Realtime TODO"
-              otherP="Web application to add, edit, delete and assign to another person in real-time. My participation came out in one of his videos Minute: 29:35 "
-              FO="Next.js"
-              SO="MaterialUI"
-              TO="Firebase"
-              link="https://houdaelbaidak6.github.io/Calculatrice/"
-              linkb="https://github.com/HoudaElbaidak6/Calculatrice"
+              otherTitle="Github Profiles"
+              otherP="This project is a fully functional project that displays GitHub user profiles. This project lets you search GitHub users. The project is simple and easy to use. The project has a box layout search bar where you can enter the name of the users in GitHub."
+              FO="Html"
+              SO="Css"
+              TO="Javascript"
+              link="https://github.com/HoudaElbaidak6/github-profiles"
+              linkb="https://houdaelbaidak6.github.io/github-profiles/"
               icona={faGithub}
               iconb={faArrowUpRightFromSquare}
+              className="card1"
             />
           </div>
         </div>
+        <button className="projectBtn">
+          <a
+            href="https://github.com/HoudaElbaidak6?tab=repositories"
+            target="_blank"
+          >
+            More Projects
+          </a>
+        </button>
       </div>
     );
   }

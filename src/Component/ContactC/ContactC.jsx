@@ -19,12 +19,12 @@ class ContactC extends Component {
             say hi, I'll try my best to get back to you!
           </p>
         </div>
-        <form>
+        <form autocomplete="off">
           <div className="namendEmail">
             <input type="text" placeholder="Name" id="name" />
-            <input type="email" placeholder="email"  id="email"/>
+            <input type="email" placeholder="email" id="email" />
           </div>
-          <input type="text" placeholder="Subject"  id="subject"/>
+          <input type="text" placeholder="Subject" id="subject" />
           <input type="text" placeholder="Message" id="msg" />
           <button type="submit">Send Message</button>
         </form>

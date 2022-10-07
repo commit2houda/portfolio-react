@@ -35,6 +35,18 @@ input {
   width: 100%;
 }
 
+/* input:active {
+  border: 2px solid #f7a67a;
+  border-radius: 5px;
+  outline: #f7a67a;
+} */
+
+input:focus {
+  border: 2px solid #f7a67a;
+  border-radius: 5px;
+  outline: #f7a67a;
+} 
+
 #subject,
 #msg {
   width: 100%;

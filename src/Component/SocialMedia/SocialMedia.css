@@ -12,17 +12,18 @@
   position: fixed;
   top: 70%;
   list-style: none;
+  cursor: pointer;
 }
 
 .icon-size {
   font-size: 1.2em;
-  color: white;
+  color: #f1c9ca;
   transform: translateY(0px);
   transition: transform 1s;
 }
 
 .icon-size:hover {
-  color: #0693e3;
+  color: #f7a67a;
   transform: translateY(-10px);
   transition: transform 0.5s;
 }

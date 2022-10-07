@@ -1,6 +1,7 @@
 import { Component } from "react";
 import "./Navbar.css";
 import logo from "../../images/logo.png";
+import animatedLogo from "../../images/animate.gif";
 import Aos from "aos";
 import "aos/dist/aos.css";
 

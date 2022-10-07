@@ -1,9 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
+/* @font-face {
+  font-family: "Causten Round";
+  src: url(../src/fonts/__MACOSX/Causten-SemiBold.otf);
+}
+ */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* font-family: "Causten Round"; */
   font-family: "Poppins", sans-serif;
 }
 

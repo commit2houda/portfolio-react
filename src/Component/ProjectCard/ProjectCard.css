@@ -44,10 +44,10 @@
 .cardCard > p {
   color: #d6c7d2;
 }
-.cardCard > p > span {
+/* .cardCard > p > span {
   color: #f7a67a;
   text-decoration: underline;
-}
+} */
 .footerCard {
   display: flex;
   justify-content: flex-end;

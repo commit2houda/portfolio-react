@@ -4,7 +4,7 @@ nav {
   align-items: center;
   flex-direction: row;
   padding: 30px 50px;
- /*  position: sticky;
+  /*  position: sticky;
   top: 1px;
   background-color: rgba(9, 42, 98,0.1); */
   /* background-color: yellow; */
@@ -28,6 +28,11 @@ nav > ul li a {
   color: #f1c9ca;
 }
 
+nav > ul li a:hover {
+  /* text-decoration: none; */
+  color: #f7a67a;
+}
+
 nav > ul li a > span {
   color: #f7a67a;
 }
@@ -47,9 +52,9 @@ nav > ul li a > span {
   cursor: pointer;
 }
 
-.imgLogo{
+ .imgLogo {
   width: 50px;
-}
+} 
 
 @media screen and (max-width: 600px) {
   nav {

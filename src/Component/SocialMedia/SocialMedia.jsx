@@ -13,27 +13,27 @@ class SocialMedia extends Component {
     return (
       <div className="mainicons">
         <ul className="icons">
-        <li>
-          <a href="#">
-            <FontAwesomeIcon className="icon-size" icon={faGithub} />
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <FontAwesomeIcon className="icon-size" icon={faLinkedin} />
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <FontAwesomeIcon className="icon-size" icon={faInstagram} />
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <FontAwesomeIcon className="icon-size" icon={faTwitter} />
-          </a>
-        </li>
-      </ul>
+          <li>
+            <a href="https://github.com/HoudaElbaidak6" target="_blank">
+              <FontAwesomeIcon className="icon-size" icon={faGithub} />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/houda-el-baidak-4b66a4237/" target="_blank">
+              <FontAwesomeIcon className="icon-size" icon={faLinkedin} />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <FontAwesomeIcon className="icon-size" icon={faInstagram} />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <FontAwesomeIcon className="icon-size" icon={faTwitter} />
+            </a>
+          </li>
+        </ul>
       </div>
     );
   }
