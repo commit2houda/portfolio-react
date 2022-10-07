@@ -27,7 +27,8 @@
   width: 50%;
 }
 
-input {
+input,
+textarea {
   padding: 10px 40px;
   background-color: #092a62;
   border-color: #f7a67a;
@@ -41,11 +42,12 @@ input {
   outline: #f7a67a;
 } */
 
-input:focus {
+input:focus,
+textarea:focus {
   border: 2px solid #f7a67a;
   border-radius: 5px;
   outline: #f7a67a;
-} 
+}
 
 #subject,
 #msg {
