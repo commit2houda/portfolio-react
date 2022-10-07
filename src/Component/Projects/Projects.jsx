@@ -41,7 +41,7 @@ class Projects extends Component {
               sL="Css"
               tL="Javascript"
               link="https://github.com/HoudaElbaidak6/appvilla"
-              linkb="https://github.com/HoudaElbaidak6/Calculatrice"
+              linkb="https://houdaelbaidak6.github.io/appvilla/"
               icona={faGithub}
               iconb={faArrowUpRightFromSquare}
             />
