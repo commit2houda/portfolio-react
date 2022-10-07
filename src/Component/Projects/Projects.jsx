@@ -52,8 +52,8 @@ class Projects extends Component {
               fL="React js"
               sL="Css"
               tL="Javascript"
-              link="https://houdaelbaidak6.github.io/Calculatrice/"
-              linkb="https://github.com/HoudaElbaidak6/Calculatrice"
+              link="https://github.com/HoudaElbaidak6/smallprojects"
+              linkb="https://houdaelbaidak6.github.io/smallprojects/"
               icona={faGithub}
               iconb={faArrowUpRightFromSquare}
             />
