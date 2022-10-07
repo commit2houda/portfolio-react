@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
+html {
+  scroll-behavior: smooth;
+}
 /* @font-face {
   font-family: "Causten Round";
   src: url(../src/fonts/__MACOSX/Causten-SemiBold.otf);

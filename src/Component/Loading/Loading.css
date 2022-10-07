@@ -29,9 +29,12 @@
 .loader-container {
   width: 100%;
   height: 100vh;
+  /* font-size: 0.3em; */
   position: fixed;
   background: rgba(0, 0, 0, 0.834)
     url(../../images/higher\ quality\ with\ bg.gif) center no-repeat;
+
+  /* background-size: 10px; */
   z-index: 1;
   font-size: 1.3em;
 }
