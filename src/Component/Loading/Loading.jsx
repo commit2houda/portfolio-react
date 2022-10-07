@@ -16,13 +16,13 @@ const Loading = () => {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 2000);
+    }, 3000);
   }, []);
   return (
     <div className="container">
       {loading ? (
         <div className="loader-container">
-          <div className="spinner"></div>
+          {/* <div className="spinner"></div> */}
         </div>
       ) : (
         <>
