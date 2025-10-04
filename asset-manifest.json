@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/portfolio-react/static/css/main.6dba1e83.css",
+    "main.js": "/portfolio-react/static/js/main.13e677eb.js",
+    "static/media/chatbot.png": "/portfolio-react/static/media/chatbot.07816adb4f5337830798.png",
+    "static/media/higher quality with bg.gif": "/portfolio-react/static/media/higher quality with bg.fad1f9cda1b216d4384c.gif",
+    "static/media/animate.gif": "/portfolio-react/static/media/animate.223034cc59e55cdcfcbe.gif",
+    "static/media/Appvilla.PNG": "/portfolio-react/static/media/Appvilla.fbdec0029d03dbd68646.PNG",
+    "static/media/calculatrice.PNG": "/portfolio-react/static/media/calculatrice.56559c52825721114c9d.PNG",
+    "static/media/logo.png": "/portfolio-react/static/media/logo.4a74243dc698819349a3.png",
+    "index.html": "/portfolio-react/index.html",
+    "main.6dba1e83.css.map": "/portfolio-react/static/css/main.6dba1e83.css.map",
+    "main.13e677eb.js.map": "/portfolio-react/static/js/main.13e677eb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6dba1e83.css",
+    "static/js/main.13e677eb.js"
+  ]
+}
