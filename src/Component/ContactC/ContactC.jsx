@@ -3,6 +3,7 @@ import "./ContactC.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
+
 class ContactC extends Component {
   componentDidMount() {
     Aos.init({ duration: 2000 });
@@ -28,6 +29,7 @@ class ContactC extends Component {
           <input type="text" placeholder="Message" id="msg" />
           <button type="submit">Send Message</button>
         </form>
+        
       </div>
     );
   }
